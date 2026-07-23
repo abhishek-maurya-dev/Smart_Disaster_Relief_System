@@ -1,45 +1,84 @@
-# Smart Disaster Relief System 
+# Smart Disaster Relief System
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI-FF6F00?style=for-the-badge&logo=artificial-intelligence&logoColor=white" />
-  <img src="https://img.shields.io/badge/IoT-00B4D8?style=for-the-badge&logo=iot&logoColor=white" />
-</div>
+## Project Overview
+
+**Smart Disaster Relief System** is a complete Python-based disaster management application that helps relief organizations efficiently manage disaster relief operations. The system provides a menu-driven interface for managing disasters, victims, volunteers, relief camps, and inventory using **100% Core Python** without any external libraries.
+
+
+## Key Features
+
+### Disaster Management
+- Add new disaster records
+- View all disasters
+- Search specific disaster by ID
+- Update disaster details
+- Delete disaster records
+
+### Victim Management
+- Register disaster victims
+- Track victim medical status
+- Link victims to disasters
+- Assign victims to relief camps
+
+### Volunteer Management
+- Register volunteers
+- Assign volunteers to camps
+- Track volunteer departments
+- Update volunteer details
+
+### Relief Camp Management
+- Create relief camps
+- Track camp capacity
+- Monitor current occupancy
+- Manage camp stocks
+
+### Inventory Management
+- Track food inventory
+- Monitor medicine inventory
+- Expiry date tracking
+- Stock level monitoring
+
+### Report Generation
+- Generate disaster summary reports
+- Severity analysis
+- Status distribution
+- Complete disaster listing
+
+### Backup System
+- Create data backups
+- List all backups
+- Restore from backups
+- Timestamped backup folders
+
+### Admin Authentication
+- Secure login system
+- SHA256 password encryption
+- Change password option
+- Secure logout
+
+### Logging System
+- Track all system activities
+- Error logging
+- Event tracking
+- Timestamped logs
+
+
+##  Technology Stack
+
+| Technology | Purpose |
+| **Python 3.9+** | Main programming language |
+| **Object-Oriented Programming (OOP)** | Code organization, classes, inheritance |
+| **CSV (Comma Separated Values)** | File-based data storage |
+| **File Handling** | Read, write, and manage files |
+| **Exception Handling** | Try-except blocks for error management |
+| **Logging Module** | System activity tracking |
+| **SHA256 Hashing** | Password encryption |
+| **OS Module** | File and directory operations |
+| **Datetime Module** | Date and time management |
+| **Random Module** | Data generation |
+
+**100% Core Python - No External Libraries Required!**
 
 ---
 
-## About
-
-**Smart Disaster Relief System** is a full-stack, distributed platform that uses **AI and IoT** to coordinate disaster response and allocate resources in real-time. It helps emergency teams manage disasters efficiently and save lives.
-
----
-
-## Features
-
-- **Real-time Disaster Monitoring** - Track disasters as they happen
-- **AI-powered Resource Allocation** - Smart distribution of resources
-- **IoT Sensor Integration** - Real-time data from sensors
-- **Live Dashboard** - Visualize disaster data
-- **Emergency Alerts** - Instant notifications to responders
-
-
-## Tech Stack
-
-| Category | Technology |
-|----------|------------|
-| **Backend** | Python, Flask |
-| **Database** | MongoDB |
-| **Real-time** | Socket.io |
-| **AI/ML** | Scikit-learn, TensorFlow |
-| **IoT** | MQTT |
-
-
-## Installation
-
-```bash
-git clone https://github.com/abhishek-maurya-dev/Smart_Disaster_Relief_System.git
-cd Smart_Disaster_Relief_System
-pip install -r requirements.txt
-python app.py
+## Complete Project Structure
